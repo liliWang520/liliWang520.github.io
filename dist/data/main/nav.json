@@ -1,0 +1,59 @@
+{
+    "code": 0
+    ,"msg": "success"
+    ,"count": 3000000
+    ,"data": {
+        "chartpage": {
+            "title": "Draw A Figure",
+            "isRouter": false,
+            "data":[
+                {
+                    "title": "柱状图",
+                    "icon":"el-icon-s-data",
+                    "href":"bar"
+                },
+                {
+                    "title": "折线图",
+                    "icon":"el-icon-finished",
+                    "href":"line"
+                },
+                {
+                    "title": "饼图",
+                    "icon":"el-icon-pie-chart",
+                    "href":"pie"
+                },
+                {
+                    "title": "地图",
+                    "icon":"el-icon-map-location",
+                    "href":"map"
+                },
+                {
+                    "title": "雷达图",
+                    "icon":"el-icon-orange",
+                    "href":"radar"
+                },
+                {
+                    "title": "仪表盘",
+                    "icon":"el-icon-s-platform",
+                    "href":"guage"
+                }
+            ]
+        },
+        "toolspage": {
+            "title": "Online Tools",
+            "isRouter": true,
+            "data": [
+                {
+                    "title": "onlinepage",
+                    "icon":"el-icon-map-location",
+                    "href":"onlinepage"
+                },
+                {
+                    "title": "onlinepage1",
+                    "icon":"el-icon-map-location",
+                    "href":"onlinepage1"
+                }
+            ]
+        }
+    }
+  }  
